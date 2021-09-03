@@ -1,0 +1,31 @@
+
+body {
+    margin: 0px;
+}
+
+.animal__header {
+    font-family: fantasy;
+    font-size: 3em;
+    width: 300px;
+    text-align: center;
+    box-shadow: 4px 4px 5px #888888;
+    margin-top: 10px;
+}
+
+.animal__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.animal__images {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.animal__images:hover {
+    transform: scale(1.1);
+}
